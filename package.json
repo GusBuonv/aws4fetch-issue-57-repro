@@ -2,6 +2,7 @@
   "name": "aws4fetch-issue-57-repro",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore"
