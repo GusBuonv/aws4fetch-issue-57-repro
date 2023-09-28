@@ -1,0 +1,29 @@
+{
+  "name": "aws4fetch-issue-57-repro",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "aws4fetch": "^1.0.17"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "aws4fetch": "^1.0.17",
+    "eslint": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-sonarjs": "^0.19.0",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.9.1",
+    "typescript": "~5.1.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
